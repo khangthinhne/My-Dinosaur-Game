@@ -9,11 +9,17 @@ public:
     ~Dino();
 
     void Draw();
-    void Update();
-
+    void Update(bool isJumping);
+    Rectangle GetRec();
+    void DrawHitBox();
+    void reset();
+    float getVelocity();
+    float speed;
 private:
     Texture2D image;
     Vector2 position;
+    float acceleration;
+
 };
 
 #endif // DINO_H

@@ -152,6 +152,30 @@ func/dino.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/func/dino.cpp.s
 .PHONY : func/dino.cpp.s
 
+func/obstacle.obj: func/obstacle.cpp.obj
+.PHONY : func/obstacle.obj
+
+# target to build an object file
+func/obstacle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/func/obstacle.cpp.obj
+.PHONY : func/obstacle.cpp.obj
+
+func/obstacle.i: func/obstacle.cpp.i
+.PHONY : func/obstacle.i
+
+# target to preprocess a source file
+func/obstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/func/obstacle.cpp.i
+.PHONY : func/obstacle.cpp.i
+
+func/obstacle.s: func/obstacle.cpp.s
+.PHONY : func/obstacle.s
+
+# target to generate assembly for a file
+func/obstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/func/obstacle.cpp.s
+.PHONY : func/obstacle.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... func/dino.obj
 	@echo ... func/dino.i
 	@echo ... func/dino.s
+	@echo ... func/obstacle.obj
+	@echo ... func/obstacle.i
+	@echo ... func/obstacle.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

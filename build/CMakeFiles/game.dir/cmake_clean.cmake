@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game.dir/func/dino.cpp.obj"
   "CMakeFiles/game.dir/func/dino.cpp.obj.d"
+  "CMakeFiles/game.dir/func/obstacle.cpp.obj"
+  "CMakeFiles/game.dir/func/obstacle.cpp.obj.d"
   "CMakeFiles/game.dir/src/main.cpp.obj"
   "CMakeFiles/game.dir/src/main.cpp.obj.d"
   "game.exe"

@@ -1,9 +1,13 @@
 #include "dino.h"
 
 Dino::Dino(){
-    image = LoadTexture("D:\\Project\\MySnakeGame\\res\\dino.png");
-    position.x = 600 - image.height / 2;
-    position.y = 400 - image.width / 2;
+    Image resizedImage = LoadImage("D:\\Project\\MySnakeGame\\res\\dino.png");
+    ImageResize(&resizedImage, 150, 170);
+    image = LoadTextureFromImage(resizedImage);
+    position.x = 550;
+    position.y =  640 - 170;
+    speed = 10;
+    acceleration = -0.27f;
 }
 
 Dino::~Dino(){
@@ -12,4 +16,30 @@ Dino::~Dino(){
 
 void Dino::Draw(){
     DrawTextureV(image, position, WHITE);
+}
+
+void Dino::Update(bool isJumping){
+    if(isJumping){
+        position.y -= getVelocity();
+    }
+    else { position.y = 640 -170; speed = 10;}
+        
+}
+
+Rectangle Dino::GetRec(){
+    return Rectangle{position.x, position.y, float(image.width),float(image.height)};
+}
+
+void Dino::DrawHitBox(){
+    DrawRectangleLinesEx(Dino::GetRec(), 5, RED);
+}
+
+float Dino::getVelocity(){
+    speed = speed + acceleration;
+    return speed;
+}
+
+void Dino::reset(){
+    position.y = 640 -170;
+    speed = 10;
 }

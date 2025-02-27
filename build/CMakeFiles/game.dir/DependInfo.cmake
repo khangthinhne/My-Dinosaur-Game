@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Project/MySnakeGame/func/dino.cpp" "CMakeFiles/game.dir/func/dino.cpp.obj" "gcc" "CMakeFiles/game.dir/func/dino.cpp.obj.d"
+  "D:/Project/MySnakeGame/func/obstacle.cpp" "CMakeFiles/game.dir/func/obstacle.cpp.obj" "gcc" "CMakeFiles/game.dir/func/obstacle.cpp.obj.d"
   "D:/Project/MySnakeGame/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.obj" "gcc" "CMakeFiles/game.dir/src/main.cpp.obj.d"
   )
 
