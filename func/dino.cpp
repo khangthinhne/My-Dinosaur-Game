@@ -6,8 +6,8 @@ Dino::Dino(){
     image = LoadTextureFromImage(resizedImage);
     position.x = 550;
     position.y =  640 - 170;
-    speed = 10;
-    acceleration = -0.27f;
+    speed = 100;
+    acceleration = -0.267f;
 }
 
 Dino::~Dino(){
