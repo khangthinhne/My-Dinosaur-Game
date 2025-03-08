@@ -10,7 +10,7 @@ CMakeFiles/game.dir/func/dino.cpp.obj: D:/Project/MySnakeGame/func/dino.cpp \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h \
+  C:/raylib/include/raylib.h \
   D:/Project/MySnakeGame/include/dino.h
 
 CMakeFiles/game.dir/func/obstacle.cpp.obj: D:/Project/MySnakeGame/func/obstacle.cpp \
@@ -22,7 +22,7 @@ CMakeFiles/game.dir/func/obstacle.cpp.obj: D:/Project/MySnakeGame/func/obstacle.
   C:/SFML/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/stdarg.h \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h \
+  C:/raylib/include/raylib.h \
   D:/Project/MySnakeGame/include/obstacle.h
 
 CMakeFiles/game.dir/src/main.cpp.obj: D:/Project/MySnakeGame/src/main.cpp \
@@ -57,7 +57,7 @@ CMakeFiles/game.dir/src/main.cpp.obj: D:/Project/MySnakeGame/src/main.cpp \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/time.h \
   C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h \
+  C:/raylib/include/raylib.h \
   D:/Project/MySnakeGame/include/dino.h \
   D:/Project/MySnakeGame/include/obstacle.h
 
@@ -82,6 +82,12 @@ C:/SFML/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
+C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h:
+
+C:/SFML/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/SFML/mingw64/include/c++/14.2.0/cstdlib:
+
 C:/SFML/mingw64/include/c++/14.2.0/stdlib.h:
 
 D:/Project/MySnakeGame/include/dino.h:
@@ -102,19 +108,11 @@ C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
 
-C:/SFML/mingw64/include/c++/14.2.0/cstdlib:
-
-C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h:
-
-C:/SFML/mingw64/x86_64-w64-mingw32/include/_timeval.h:
-
 D:/Project/MySnakeGame/include/obstacle.h:
 
 C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
 D:/Project/MySnakeGame/func/dino.cpp:
-
-C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h:
 
 C:/SFML/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
 
@@ -125,6 +123,8 @@ C:/SFML/mingw64/x86_64-w64-mingw32/include/malloc.h:
 C:/SFML/mingw64/include/c++/14.2.0/pstl/pstl_config.h:
 
 C:/SFML/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+C:/raylib/include/raylib.h:
 
 C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 

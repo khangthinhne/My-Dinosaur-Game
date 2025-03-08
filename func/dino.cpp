@@ -27,7 +27,7 @@ void Dino::Update(bool isJumping){
 }
 
 Rectangle Dino::GetRec(){
-    return Rectangle{position.x, position.y, float(image.width),float(image.height)};
+    return Rectangle{position.x , position.y , float(image.width) ,float(image.height)};
 }
 
 void Dino::DrawHitBox(){

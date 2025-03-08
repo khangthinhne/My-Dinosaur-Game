@@ -1,1 +1,1 @@
-  -L"C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/lib"  -Wl,-Bstatic -lraylib -Wl,-Bdynamic -lopengl32 -lgdi32 -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LC:/raylib/lib  -Wl,-Bstatic -lraylib -Wl,-Bdynamic -lopengl32 -lgdi32 -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

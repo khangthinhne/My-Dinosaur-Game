@@ -10,11 +10,11 @@ class OBSTACLE{
     void update();
     void reset();
     Rectangle GetRec();
-
+    int speed;
     private:
     Texture2D image;
     Vector2 position;
-    int speed;
+    
 };
 
 #endif 

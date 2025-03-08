@@ -11,7 +11,7 @@ CMakeFiles/game.dir/func/dino.cpp.obj
  C:/SFML/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
  C:/SFML/mingw64/x86_64-w64-mingw32/include/stdarg.h
  C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h
- C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h
+ C:/raylib/include/raylib.h
  D:/Project/MySnakeGame/include/dino.h
 
 CMakeFiles/game.dir/func/obstacle.cpp.obj
@@ -24,7 +24,7 @@ CMakeFiles/game.dir/func/obstacle.cpp.obj
  C:/SFML/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
  C:/SFML/mingw64/x86_64-w64-mingw32/include/stdarg.h
  C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h
- C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h
+ C:/raylib/include/raylib.h
  D:/Project/MySnakeGame/include/obstacle.h
 
 CMakeFiles/game.dir/src/main.cpp.obj
@@ -60,7 +60,7 @@ CMakeFiles/game.dir/src/main.cpp.obj
  C:/SFML/mingw64/x86_64-w64-mingw32/include/sys/timeb.h
  C:/SFML/mingw64/x86_64-w64-mingw32/include/time.h
  C:/SFML/mingw64/x86_64-w64-mingw32/include/vadefs.h
- C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h
+ C:/raylib/include/raylib.h
  D:/Project/MySnakeGame/include/dino.h
  D:/Project/MySnakeGame/include/obstacle.h
 

@@ -1,5 +1,5 @@
 CMakeFiles/game.dir/src/main.cpp.obj: D:\Project\MySnakeGame\src\main.cpp \
- C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include/raylib.h \
+ C:/raylib/include/raylib.h \
  C:/SFML/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/SFML/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \

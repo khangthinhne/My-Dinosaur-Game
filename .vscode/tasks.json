@@ -11,8 +11,8 @@
                 "src/main.cpp",
                 "func/dino.cpp",
                 "-Iinclude",
-                "-I\"C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/include\"",
-                    "-L\"C:/Users/HP/Desktop/raylib-5.5_win64_mingw-w64/lib\"", // Thay thế bằng đường dẫn thực tế
+                "-I\"C:/raylib/include\"",
+                    "-L\"C:/ryalib/lib\"", // Thay thế bằng đường dẫn thực tế
                 "-lraylib",
                 "-lopengl32",
                 "-lgdi32",
